@@ -1,0 +1,14 @@
+[package]
+name = "mesos"
+version = "0.1.0"
+authors = ["bfalk"]
+license = "MIT"
+
+[dependencies]
+debugger = { path = "libs/debugger" }
+basic_mutator = { path = "libs/basic_mutator" }
+corpus = { path = "libs/corpus" }
+window = { path = "libs/window" }
+glob = "0.3.0"
+[profile.release]
+debug = true
